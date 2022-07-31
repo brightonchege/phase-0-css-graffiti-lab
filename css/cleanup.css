@@ -1,1 +1,23 @@
 /* write your override styles here */
+.tag-1 {
+    background: url(../images/tag-1.png) no-repeat;
+    z-index: 7;
+    display: block;
+  }
+  #wall .tag-1 {
+    display: none;
+  }
+
+#wall {
+    position: relative;
+    margin: 30px auto;
+    width: 900px;
+    height: 600px;
+    background: url(../images/wall.jpg) no-repeat center;
+    -moz-box-shadow: 15px 15px 47px rgb(109, 143, 109), -15px -15px 47px aqua;
+    -webkit-box-shadow: 15px 15px 47px rgb(190, 108, 190), -15px -15px 47px aqua;
+    box-shadow: 15px 15px 47px lime, -15px -15px 47px rgb(189, 178, 26);
+    border: 15px solid white;
+    border-bottom: 60px solid rgb(156, 75, 75);
+  }
+  
